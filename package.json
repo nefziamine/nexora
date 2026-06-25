@@ -1,0 +1,14 @@
+{
+  "name": "nexora-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nexora Technologies — root workspace",
+  "scripts": {
+    "postinstall": "npm install --prefix nexora-technologies",
+    "dev": "npm run dev --prefix nexora-technologies",
+    "build": "npm run build --prefix nexora-technologies",
+    "start": "npm run start --prefix nexora-technologies",
+    "lint": "npm run lint --prefix nexora-technologies",
+    "install:frontend": "npm install --prefix nexora-technologies"
+  }
+}

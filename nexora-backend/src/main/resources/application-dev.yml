@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/nexora_db
+    username: nexora
+    password: nexora_secret
+  jpa:
+    show-sql: true

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Java / Maven
+nexora-backend/target/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+*.log
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
